@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -27,6 +28,12 @@ class GoogleSeachTest(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
+def sample():
+    pass
 
 if __name__ == '__main__':
     unittest.main()
+=======
+
+
+>>>>>>> testing_branch
