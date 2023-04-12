@@ -1,3 +1,6 @@
 def demo():
-    print("merge conflit 1")
+    x=10
     pass
+
+print(x)
+
