@@ -5,10 +5,6 @@ def func(a, b):
 
 
 
-func(5, 6)
-
-
-
 
 print("Hello from Dhawal Malot.")
 
@@ -22,24 +18,6 @@ print(func(3,4))
 
 func(5, 6)
 print("hello")
-
-print("hi Abhishek")
-
-
-
-print("Hello from Dhawal Malot.")
-
-print("sum of two variable : ", func(5, 6))
-print(func(5,8))
-
-# func(5, 6)
-
-print(func(5, 6))
-print(func(3,4))
-
-func(5, 6)
-print("hello")
-
 
 
 
@@ -48,3 +26,7 @@ print("hello")
 
 
 print(func(3, 5))
+
+"""
+hi Amit
+"""
