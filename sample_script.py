@@ -26,11 +26,8 @@ class GoogleSeachTest(unittest.TestCase):
         # Close the browser.
         self.driver.close()
         self.driver.quit()
-
-def sample():
-    pass
+    def demo(self):
+        pass
 
 if __name__ == '__main__':
     unittest.main()
-
-
