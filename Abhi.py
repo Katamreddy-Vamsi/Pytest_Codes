@@ -5,7 +5,7 @@ def func(a, b):
 
 
 
-print(func(3,4))
+print(func(5,8))
 
 func(5, 6)
 print("hello")
