@@ -4,6 +4,9 @@ def func(a, b):
 
 
 
+func(5, 6)
+
+
 
 
 print("Hello from Dhawal Malot.")
