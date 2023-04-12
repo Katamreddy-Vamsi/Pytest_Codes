@@ -5,9 +5,18 @@ def func(a, b):
 
 
 
+
 print("sum of two variable : ", func(5, 6))
 
 # func(5, 6)
+
+print(func(5, 6))
+print(func(3,4))
+
+func(5, 6)
+print("hello")
+
+
 
 
 # func(6, 7)
