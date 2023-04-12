@@ -25,7 +25,8 @@ print("hello")
 # func(6, 7)
 
 
-print(func(3, 5))
+
+print("hi amit")
 
 """
 hi Amit
