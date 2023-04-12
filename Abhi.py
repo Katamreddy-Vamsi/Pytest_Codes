@@ -4,8 +4,8 @@ def func(a, b):
 
 
 
-print(func(5, 6))
+print("sum of two variable : ", func(5, 6))
 
-func(5, 6)
+# func(5, 6)
 
 
