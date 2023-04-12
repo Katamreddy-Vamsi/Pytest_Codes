@@ -3,5 +3,5 @@ def func(a, b):
     print("sum of two variable : ", c)
 
 
-func(3, 4)
+func(5, 6)
 
