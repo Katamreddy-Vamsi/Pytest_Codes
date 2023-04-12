@@ -5,6 +5,7 @@ def func(a, b):
 
 
 print(func(5, 6))
+print(func(3,4))
 
 func(5, 6)
 print("hello")
