@@ -3,6 +3,7 @@ def func(a, b):
     print("sum of two variable : ", c)
 
 
+print("merge")
 
 
 print(func(3,4))
