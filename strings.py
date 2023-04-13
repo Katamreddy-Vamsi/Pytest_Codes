@@ -18,3 +18,7 @@ print(a.split(",")) # returns ['Hello', ' World!']
 age = 36
 txt = "My name is John, and I am {}"
 print(txt.format(age))
+
+mydict = {83:  80}
+txt = "Hello Sam!"
+print(txt.translate(mydict))
