@@ -15,6 +15,5 @@ if __name__ == "__main__":
     test_runner = TextTestRunner(verbosity=2)
     test_runner.run(test_suite)
 
-    # Refer https://testtools.readthedocs.io/en/latest/api.html for more information
     parallel_suite = testtools.ConcurrentStreamTestSuite(lambda: ((case, None) for case in test_suite))
     parallel_suite.run(testtools.StreamResult())

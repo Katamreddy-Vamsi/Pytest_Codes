@@ -1,7 +1,5 @@
 from Pytest_Page_Object_Model.Src.TestBase.WebDriverSetup import WebDriverSetup
-from Pytest_Page_Object_Model.Src.PageObject.Pages.HomePage import Home
 import unittest
-from selenium import webdriver
 
 
 class Google_HomePage(WebDriverSetup):
@@ -19,10 +17,6 @@ class Google_HomePage(WebDriverSetup):
                 self.assertEqual(driver.title, web_page_title)
         except Exception as error:
             print(str(error) + "WebPage Failed to load")
-
-        # Create an instance of the class so that you we can make use of the methods
-        # in the class
-        home_page = Home(driver)
 
 
 if __name__ == '__main__':

@@ -1,7 +1,3 @@
-# import sys
-#
-# sys.path.append(sys.path[0] + "/...")
-
 import unittest
 from time import sleep
 from Pytest_Page_Object_Model.Src.TestBase.WebDriverSetup import WebDriverSetup
@@ -14,8 +10,7 @@ class Google_Search(WebDriverSetup):
         self.driver.get("https://www.google.com/")
         self.driver.set_page_load_timeout(30)
 
-        # Create an instance of the class so that you we can make use of the methods
-        # in the class
+        # Create an instance of the class so that we can make use of the methods in the class
         home = Home(driver)
         home.search_text.send_keys("Page object model")
         sleep(5)
