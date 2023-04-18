@@ -1,1 +1,1 @@
-"Hi team"
+print("Welcome")
