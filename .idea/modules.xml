@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/gitPracticeProject.iml" filepath="$PROJECT_DIR$/.idea/gitPracticeProject.iml" />
-=======
+
       <module fileurl="file://$PROJECT_DIR$/.idea/POMProject.iml" filepath="$PROJECT_DIR$/.idea/POMProject.iml" />
->>>>>>> sample_branch
     </modules>
   </component>
 </project>
