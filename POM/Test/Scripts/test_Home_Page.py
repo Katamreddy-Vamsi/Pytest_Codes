@@ -1,5 +1,5 @@
-from POM.Src.TestBase.WebDriverSetup import WebDriverSetup
-from POM.Src.PageObject.Pages.HomePage import Home
+from Pytest_Page_Object_Model.POM.Src.TestBase.WebDriverSetup import WebDriverSetup
+from Pytest_Page_Object_Model.POM.Src.PageObject.Pages.HomePage import Home
 from selenium import webdriver
 import sys
 import unittest

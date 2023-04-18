@@ -1,14 +1,13 @@
 from unittest import TestLoader, TestSuite, TextTestRunner
-from POM.Test.Scripts.test_Home_Page import Google_HomePage
-from POM.Test.Scripts.test_Google_Search import Google_Search
+from Pytest_Page_Object_Model.POM.Test.Scripts.test_Home_Page import Google_HomePage
+from Pytest_Page_Object_Model.POM.Test.Scripts.test_Google_Search import Google_Search
 import testtools
 import sys
 import os
 
-sys.path.append(sys.path[0] + "/...")
+# sys.path.append(sys.path[0] + "/...")
+# print(sys.path[0])
 # Uncomment if the above example gives you a relative path error
-
-
 
 
 if __name__ == "__main__":
