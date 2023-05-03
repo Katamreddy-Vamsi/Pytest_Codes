@@ -5,7 +5,7 @@ from selenium.webdriver import Keys
 import sys
 
 sys.path.insert(0, "..")
-from Google_Search.utilities.base_class import base_class
+from Google_Search.utilities import base_class
 from Google_Search.pages.GoogleSearchPage import GoogleSearch
 
 
