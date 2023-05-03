@@ -24,7 +24,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
 @pytest.mark.usefixtures("setup")
-class base_class:
+class Base_Test:
 
     def wait_for_element_to_presence(self, locator):
         wait = WebDriverWait(self.driver, 20)
